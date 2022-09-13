@@ -3,7 +3,6 @@ package com.octa.view_binding_10829
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.octa.view_binding_10829.MainAdapter.*
 import com.octa.view_binding_10829.databinding.RecyclerviewItemBinding
 
 class MainAdapter(val taskList: List<Task>):RecyclerView.Adapter<MainAdapter.MainViewHolder>() {
